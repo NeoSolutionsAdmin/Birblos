@@ -1,0 +1,457 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1649020816896732, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649020816900389, "dur": 29612, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649020816930241, "dur": 58734, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649020816989006, "dur": 389920, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649020817378929, "dur": 15968106, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649020833347067, "dur": 10371, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649020847414370, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649020847414731, "dur": 10856, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649020847425591, "dur": 47930, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649020847473524, "dur": 864844, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649020848338372, "dur": 2736100, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649020851074476, "dur": 3328, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649020851078573, "dur": 121, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1649020848082545, "dur": 235426, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649020848083918, "dur": 64617, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649020848294544, "dur": 6888, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649020848301438, "dur": 16512, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649020848302446, "dur": 14632, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649020848324817, "dur": 3006, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1649020848323668, "dur": 4220, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649020851078901, "dur": 244, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1649020848400017, "dur":7758, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649020848407783, "dur":37, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1649020848407832, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1649020848407848, "dur":252, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1649020848408136, "dur":678, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649020848408814, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649020851053478, "dur":144, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649020851053623, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649020851053654, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649020851053656, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649020851053671, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649020851053673, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649020851053683, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649020851053684, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649020851053692, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649020851053710, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649020851053770, "dur":1572, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1649020848408694, "dur":131, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020848408826, "dur":6287, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020848415119, "dur":63245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1649020848478370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020848478681, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1649020848480119, "dur":91192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1649020848571327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020848571682, "dur":12626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1649020848584354, "dur":7571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1649020848591930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020848591939, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1649020848593144, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1649020848593310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020848647535, "dur":9497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1649020848657085, "dur":19876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1649020848676967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020848676977, "dur":6150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1649020848683171, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1649020848683303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020848683310, "dur":8270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1649020848691671, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1649020848691801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020848691809, "dur":10008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1649020848701910, "dur":44509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020848746424, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020848748061, "dur":6344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020848754453, "dur":818274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849572732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020849572740, "dur":44836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849617625, "dur":55805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849673435, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020849673445, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849674440, "dur":25052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849699495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020849699503, "dur":13906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849713428, "dur":39759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849753192, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020849753201, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849754495, "dur":28546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849783046, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020849783056, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849784048, "dur":27530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849811582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020849811590, "dur":1301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849812912, "dur":38180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849851097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020849851106, "dur":1172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849852295, "dur":29204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849881529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020849881538, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849882894, "dur":71636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849954540, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020849954557, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020849956360, "dur":318516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020850274881, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020850274890, "dur":1366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020850276276, "dur":134594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020850410876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020850410886, "dur":1255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020850412164, "dur":46565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020850458735, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020850458744, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020850460411, "dur":197267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020850657683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020850657692, "dur":3780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020850661500, "dur":85937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020850747443, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020850747452, "dur":1585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1649020850749059, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1649020850749076, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020850749082, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1649020850751485, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1649020850751500, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020850751506, "dur":1294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/level0.resS" }}
+,{ "pid":12345, "tid":1, "ts":1649020850752820, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1649020850752833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020850752840, "dur":1038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1649020850753895, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1649020850753911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020850753918, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1649020850755036, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1649020850755049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020850755055, "dur":1083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1649020850756158, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1649020850756251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1649020850756257, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1649020850757243, "dur":296261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020848408754, "dur":78, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020848408832, "dur":6284, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020848415118, "dur":743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1649020848415865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020848456434, "dur":18393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1649020848474883, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1649020848475013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020848475021, "dur":254450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1649020848729526, "dur":409160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849138691, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849138700, "dur":22500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849161325, "dur":19132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849180463, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849180473, "dur":1050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849181542, "dur":18846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849200393, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849200403, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849201498, "dur":17394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849218897, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849218907, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849220065, "dur":45197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849265267, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849265276, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849266788, "dur":122154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849388947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849388956, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849391523, "dur":18904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849410433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849410442, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849411746, "dur":35467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849447239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849447248, "dur":1749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849449021, "dur":43289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849492315, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849492324, "dur":1375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849493720, "dur":28810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849522535, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849522545, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849523569, "dur":32994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849556568, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849556577, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849558153, "dur":69562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849627719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849627727, "dur":9211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849636960, "dur":20023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849656989, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849656998, "dur":1307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849658326, "dur":18550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849676882, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849676891, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849677911, "dur":55132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849733049, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849733058, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849734180, "dur":121225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849855410, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849855419, "dur":1989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849857429, "dur":54248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849911682, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849911691, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849912700, "dur":64993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849977699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020849977708, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020849978721, "dur":354779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020850333505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020850333514, "dur":9440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020850342975, "dur":68092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020850411072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020850411080, "dur":7059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020850418165, "dur":194212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020850612382, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020850612391, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020850614033, "dur":95565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020850709601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020850709611, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020850711035, "dur":5302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/HierarchyIcons.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020850716343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020850716353, "dur":987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/HierarchyIcons.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020850717356, "dur":29062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020850746423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020850746431, "dur":1219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1649020850747670, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1649020850747687, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020850747736, "dur":1368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1649020850749128, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1649020850749236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020850749243, "dur":1756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1649020850751019, "dur":4569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1649020850755620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1649020850755629, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1649020850757008, "dur":296483, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020848408812, "dur":4, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020848408817, "dur":6288, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020848415117, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1649020848415123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020848415750, "dur":212, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1649020848415964, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1649020848415986, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020848416557, "dur":6576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1649020848423136, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1649020848423301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020848436966, "dur":37985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1649020848475005, "dur":96129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1649020848571138, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020848583272, "dur":8279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1649020848591602, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1649020848591747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020848591756, "dur":214279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1649020848806089, "dur":117824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1649020848923917, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020848923925, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1649020848925657, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1649020848925797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020848926068, "dur":128225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1649020849054358, "dur":29315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849083678, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849083687, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849085191, "dur":49292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849134488, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849134498, "dur":2416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849136939, "dur":23268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849160213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849160222, "dur":5414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849165662, "dur":23652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849189320, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849189330, "dur":1563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849190916, "dur":21140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849212108, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849212120, "dur":1630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849213775, "dur":46003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849259783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849259791, "dur":2104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849261919, "dur":33184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849295108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849295117, "dur":1373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849296512, "dur":19847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849316364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849316393, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849317954, "dur":32043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849350035, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849350046, "dur":1311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849351379, "dur":31290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849382675, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849382685, "dur":2787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849385494, "dur":33751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849419250, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849419259, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849420696, "dur":30841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849451542, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849451551, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849453669, "dur":30219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849483894, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849483903, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849485166, "dur":32284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849517455, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849517464, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849518774, "dur":24065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849542845, "dur":262, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849543114, "dur":2833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849545970, "dur":25362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849571359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849571369, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849572771, "dur":31067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849603843, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849603852, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849605567, "dur":22268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849627838, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849627844, "dur":20035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849647898, "dur":48035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849695939, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849695948, "dur":20511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849716483, "dur":46170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849762666, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849762675, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849763766, "dur":45630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849809402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849809431, "dur":1800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849811258, "dur":31642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849842906, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849842915, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849844054, "dur":34715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849878775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849878784, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849880296, "dur":93772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849974074, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020849974083, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020849975445, "dur":152162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020850127612, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020850127622, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020850128858, "dur":133518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020850262381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020850262390, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020850264054, "dur":121412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020850385471, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020850385481, "dur":2231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020850387735, "dur":106144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020850493884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020850493893, "dur":1122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020850495031, "dur":47479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020850542515, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020850542525, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020850543616, "dur":116064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020850659686, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020850659695, "dur":4899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020850664617, "dur":40550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020850705173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020850705186, "dur":4348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020850709557, "dur":189318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020850898881, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1649020850898890, "dur":3567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1649020850902477, "dur":151002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020848408863, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020848408864, "dur":6261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020848415126, "dur":19656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1649020848434788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020848436952, "dur":20636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1649020848457642, "dur":25236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1649020848482883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020848482893, "dur":7591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1649020848490536, "dur":80593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1649020848571136, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020848571666, "dur":27284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1649020848599001, "dur":6149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1649020848605156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020848630562, "dur":17427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1649020848648035, "dur":7741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1649020848655783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020848655794, "dur":12339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1649020848668184, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1649020848668319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020848668327, "dur":254579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1649020848923017, "dur":36659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo.exe" }}
+,{ "pid":12345, "tid":4, "ts":1649020848959681, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020848959689, "dur":2319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo.exe" }}
+,{ "pid":12345, "tid":4, "ts":1649020848962031, "dur":52161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849014198, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849014547, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849016165, "dur":19421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849035592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849035731, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849036883, "dur":22335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849059224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849059233, "dur":3373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849062636, "dur":28282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849090924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849090933, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849092330, "dur":22130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849114465, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849114475, "dur":1815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849116311, "dur":31768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849148085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849148093, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849149399, "dur":72019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849221424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849221433, "dur":1887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849223344, "dur":15824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849239173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849239181, "dur":6210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849245414, "dur":25094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849270514, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849270523, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849271973, "dur":90207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849362186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849362194, "dur":2211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849364430, "dur":84455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849448891, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849448900, "dur":1381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849450302, "dur":26552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849476860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849476868, "dur":940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849477824, "dur":23757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849501587, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849501595, "dur":1558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849503178, "dur":20841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849524024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849524033, "dur":8198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849532277, "dur":35584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849567866, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849567875, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849569448, "dur":28772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849598227, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849598238, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849599563, "dur":27668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849627237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849627246, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849628606, "dur":69510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849698121, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849698130, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849699324, "dur":22799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849722129, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849722138, "dur":1282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849723442, "dur":19761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849743209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849743218, "dur":1022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849744257, "dur":30162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849774443, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849774453, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849775563, "dur":40449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849816017, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849816027, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849817739, "dur":127905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849945650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020849945659, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020849946937, "dur":112932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020850059875, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020850059884, "dur":2326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020850062260, "dur":122747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020850185012, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020850185021, "dur":1518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020850186561, "dur":147913, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020850334479, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020850334488, "dur":1381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020850335895, "dur":111874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020850447774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020850447783, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020850449220, "dur":225992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020850675217, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020850675226, "dur":5813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020850681061, "dur":365788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020851046854, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1649020851046864, "dur":6551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Deivit/Desktop/Birblo 1.0/Birblo_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1649020851053437, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1649020851053440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1649020851056853, "dur":1856, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1649020851079225, "dur": 1136, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1649020851078537, "dur": 1866, "ph": "X", "name": "Write chrome-trace events", "args": {} },
